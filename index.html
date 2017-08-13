@@ -1,0 +1,54 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<html>
+
+<head>
+  <title>P2P</title>
+  <link href="/ui/style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <div id="title">
+      P2P
+    </div>
+  </div>
+
+<div id="buffer">
+
+</div>
+
+<div class="vertical-form new-user">
+  <form action="">
+    <legend>
+      New User
+    </legend>
+    <input type="email" placeholder="Email Address" label="false" spellcheck="false" class="is-sensitive" value="" name="user[email]" id="user_email" required>
+    <input placeholder="Password" label="false" autocomplete="off" class="is-sensitive" type="password" name="user[password]" id="user_password" required>
+    <button>Sign Up</button>
+  </form>
+</div>
+
+<div id="midbuff">
+
+</div>
+
+<div class="vertical-form exist-user">
+  <form action="">
+    <legend>
+      Returning User
+    </legend>
+    <input type="email" placeholder="Email Address" label="false" spellcheck="false" class="is-sensitive" value="" name="user[email]" id="user_email1" required>
+    <input placeholder="Password" label="false" autocomplete="off" class="is-sensitive" type="password" name="user[password]" id="user_password1" required>
+    <button>Log-in</button>
+  </form>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<script src="/ui/main.js"></script>
+
+</body>
+
+</html>

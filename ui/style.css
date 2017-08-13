@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.header {
+  background-color: #2196F3;
+  width: 100%;
+  top: 0;
+  float: left;
+}
+
+.header #title {
+  text-align: center;
+  padding: 40px;
+  font-size: 88;
+  font-weight: 200;
+  color: #FFF;
+}
+
+.vertical-form.new-user {
+  display: block;
+  padding: 40px;
+  margin: 0 auto;
+  width: 500px;
+  border-radius: 3px;
+  border-color: #000;
+  border-style: solid;
+}
+
+.vertical-form.new-user legend{
+  line-height: 32px;
+  font-size: 32px;
+  margin: auto;
+}
+
+.vertical-form.new-user input[type='email']{
+  background: #fcfcfc;
+    border: 2px solid #e7e7e7;
+    margin: 20px auto;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: opacity 0.4s;
+    text-align: left;
+    height: auto;
+    -webkit-appearance: none;
+}
+
+.vertical-form.new-user input[type='password']{
+  background: #fcfcfc;
+    border: 2px solid #e7e7e7;
+    margin: 20px auto;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: opacity 0.4s;
+    text-align: left;
+    height: auto;
+    -webkit-appearance: none;
+}
+
+.vertical-form.new-user button{
+  color: white;
+    background: #15CD72;
+    border: 0;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 0;
+    height: auto;
+    -webkit-appearance: none;
+    margin: 20px auto;
+padding: 15px;
+width: 100%;
+display: block;
+border-radius: 3px;
+font-size: 18px;
+transition: opacity 0.4s;
+}
+
+.vertical-form.new-user input[type='submit']{
+  color: white;
+    background: #15CD72;
+    border: 0;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 0;
+    height: auto;
+    -webkit-appearance: none;
+    margin: 20px auto;
+padding: 15px;
+width: 100%;
+display: block;
+border-radius: 3px;
+font-size: 18px;
+transition: opacity 0.4s;
+}
+
+.vertical-form.exist-user {
+  display: block;
+  padding: 40px;
+  margin: 0 auto;
+  width: 500px;
+  border-radius: 3px;
+  border-color: #000;
+  border-style: solid;
+}
+
+.vertical-form.exist-user legend{
+  line-height: 32px;
+  font-size: 32px;
+  margin: auto;
+}
+
+.vertical-form.exist-user input[type='email']{
+  background: #fcfcfc;
+    border: 2px solid #e7e7e7;
+    margin: 20px auto;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: opacity 0.4s;
+    text-align: left;
+    height: auto;
+    -webkit-appearance: none;
+}
+
+.vertical-form.exist-user input[type='password']{
+  background: #fcfcfc;
+    border: 2px solid #e7e7e7;
+    margin: 20px auto;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: opacity 0.4s;
+    text-align: left;
+    height: auto;
+    -webkit-appearance: none;
+}
+
+.vertical-form.exist-user button{
+  color: white;
+    background: #15CD72;
+    border: 0;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 0;
+    height: auto;
+    -webkit-appearance: none;
+    margin: 20px auto;
+padding: 15px;
+width: 100%;
+display: block;
+border-radius: 3px;
+font-size: 18px;
+transition: opacity 0.4s;
+}
+
+.vertical-form.exist-user input[type='submit']{
+  color: white;
+    background: #15CD72;
+    border: 0;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 0;
+    height: auto;
+    -webkit-appearance: none;
+    margin: 20px auto;
+padding: 15px;
+width: 100%;
+display: block;
+border-radius: 3px;
+font-size: 18px;
+transition: opacity 0.4s;
+}
+
+#midbuff{
+  padding: 40px;
+}
+
+#buffer {
+  padding: 20px;
+}
