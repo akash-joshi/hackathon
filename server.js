@@ -66,7 +66,8 @@ io.on('connection', function(socket){
 					};
 					client.post("https://data.repellent90.hasura-app.io/v1/query", args, function (data, response) {
 					    // parsed response body as js object
-					    console.log(data);
+              socket.emit("update", "User Created");
+              socket.emit("ack");
 							socket.handshake.session.username = msg.user;
 							socket.handshake.session.save(); 														// SAVE LOGIN COOKIE
 					});
@@ -95,12 +96,16 @@ io.on('connection', function(socket){
 		};
 		client.post("https://data.repellent90.hasura-app.io/v1/query", args, function (data, response) {
 				// parsed response body as js object
-				console.log(data);
 				if(data.length != 0){
 					socket.emit("update", "Welcome !");
+          socket.emit("ack");
 					socket.handshake.session.username = msg.user;
 					socket.handshake.session.save();
 				}
+
+        else {
+          socket.emit("update", "Wrong Credentials!");
+        }
 
 		});
 	});
