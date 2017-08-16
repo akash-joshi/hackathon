@@ -28,7 +28,7 @@ $(function() {
   });
 
   socket.on("ack", function(){
-    window.location.replace('/index1.html');
+    window.location.href('/index1.html');
   });
 
   socket.on("update", function(msg){

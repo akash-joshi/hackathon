@@ -36,7 +36,7 @@ body {
   border-style: solid;
 }
 
-.vertical-form.new-user legend{
+legend{
   line-height: 32px;
   font-size: 32px;
   margin: auto;
@@ -122,12 +122,6 @@ transition: opacity 0.4s;
   border-style: solid;
 }
 
-.vertical-form.exist-user legend{
-  line-height: 32px;
-  font-size: 32px;
-  margin: auto;
-}
-
 .vertical-form.exist-user input[type='email']{
   background: #fcfcfc;
     border: 2px solid #e7e7e7;
@@ -204,4 +198,10 @@ transition: opacity 0.4s;
 
 #buffer {
   padding: 20px;
+}
+
+#maintext {
+  font-size: 34;
+  padding-top: 23;
+  padding-left: 23;
 }
