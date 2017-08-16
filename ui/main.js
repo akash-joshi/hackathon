@@ -29,7 +29,7 @@ $(function() {
 
   socket.on("update", function(msg){
     if(msg != "Username Exists"){
-      window.location.replace("/index1.html");
+      window.location.href("/index1.html");
     }
     alert(msg);
   })
