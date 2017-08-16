@@ -72,7 +72,7 @@ body {
     -webkit-appearance: none;
 }
 
-.vertical-form.new-user button{
+.vertical-form button{
   color: white;
     background: #15CD72;
     border: 0;
@@ -90,6 +90,12 @@ display: block;
 border-radius: 3px;
 font-size: 18px;
 transition: opacity 0.4s;
+}
+
+.vertical-form button:active {
+   // vertical-align: top;
+    padding: 8px 13px 6px;
+    opacity : 0.5;
 }
 
 .vertical-form.new-user input[type='submit']{
