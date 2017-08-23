@@ -32,6 +32,9 @@ app.get('/ui/:fileName', function (req, res) {
 });
 
 io.on('connection', function(socket){
+  if(socket.handshake.session.hasOwnProperty('username')){
+    socket.emit("update","logged in!");
+  }
 	console.log(socket.handshake.session);
 	socket.on("new-login",function(msg) {
 		var args = {

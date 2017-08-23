@@ -205,3 +205,19 @@ transition: opacity 0.4s;
   padding-top: 23;
   padding-left: 23;
 }
+
+@media screen and (max-width: 600px) {
+  .vertical-form.exist-user {
+    max-width: 400px;
+    border-style: hidden;
+  }
+
+  .vertical-form.new-user {
+    max-width: 400px;
+    border-style: hidden;
+  }
+
+  #midbuff{
+    padding: 0px;
+  }
+}
